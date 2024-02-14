@@ -1,5 +1,9 @@
 ## Automated Credit Analysis
 Our goal is to create a scalable proof-of-concept of automated credit analysis.
+- Our CEO asked us for [some analysis](prompt.md).
+- Our input data is [this bank statement](statements/idfc_first_bank.pdf).
+- [Docsumo.ipynb](docsumo.ipynb) calls Docsumo and saves output to disk.
+- [Analysis.ipynb](analysis.ipynb) calls OpenAI, computes some ratios, and outputs this [Credit analysis](credit_analysis.pdf).
 
 ## Focus on IDFC borrower
 I opted to focus on the Indian borrower because his bank statements told a story. It was eye-opening to see him shuffling loans. 

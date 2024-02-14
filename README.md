@@ -41,14 +41,3 @@ The prompt pushed us to lean into LLMs to parse the doc, so I used ChatGPT to id
 
 ChatGPT caught most financial transactions but usually misclasified one of the two large transactions. 
 With additional context, such as a list of financial institutions or classified list of line items, ChatGPTs performance may improve. 
-
-
-## Output format
-PDF seemed most appropriate.
-With more time we'd use the LLM to instead fill out a template so that we'd have an attractive, consistent format. 
-
-## File structure
-- docsumo.ipynb contains the code for using Docsumo to parse the doc. 
-- analysis.ipynb contains all the logic and pdf generation.
-- credit_analysis.pdf is the output.
-- If you're curious, tabula.ipynb shows how much munging is required per document type.
